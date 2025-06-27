@@ -37,11 +37,11 @@ const Layout = ({ children }) => {
         )}
       </AnimatePresence>
 
-      {/* Main Content */}
-      <div className="flex-1 overflow-hidden">
+{/* Main Content */}
+      <div className="flex-1 flex flex-col overflow-hidden">
         <Header onMenuClick={() => setSidebarOpen(true)} />
         
-        <main className="flex-1 relative overflow-y-auto focus:outline-none">
+        <main className="flex-1 overflow-y-auto focus:outline-none">
           <div className="py-6">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               {children}
