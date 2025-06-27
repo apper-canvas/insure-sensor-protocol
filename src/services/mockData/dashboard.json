@@ -1,0 +1,111 @@
+{
+  "dashboardMetrics": [
+    {
+      "id": 1,
+      "title": "Total Clients",
+      "value": 247,
+      "change": 12,
+      "changeType": "positive",
+      "icon": "Users",
+      "color": "primary",
+      "type": "number"
+    },
+    {
+      "id": 2,
+      "title": "Active Policies",
+      "value": 189,
+      "change": 8,
+      "changeType": "positive",
+      "icon": "Shield",
+      "color": "secondary",
+      "type": "number"
+    },
+    {
+      "id": 3,
+      "title": "Monthly Revenue",
+      "value": 87650,
+      "change": 15,
+      "changeType": "positive",
+      "icon": "DollarSign",
+      "color": "accent",
+      "type": "currency"
+    },
+    {
+      "id": 4,
+      "title": "Conversion Rate",
+      "value": 24,
+      "change": 3,
+      "changeType": "positive",
+      "icon": "TrendingUp",
+      "color": "neutral",
+      "type": "percentage"
+    }
+  ],
+  "recentActivities": [
+    {
+      "Id": 1,
+      "type": "Policy",
+      "description": "Auto policy renewed",
+      "clientName": "John Smith",
+      "timestamp": "2024-01-15T10:30:00Z"
+    },
+    {
+      "Id": 2,
+      "type": "Client",
+      "description": "New client onboarded",
+      "clientName": "Sarah Johnson",
+      "timestamp": "2024-01-15T09:15:00Z"
+    },
+    {
+      "Id": 3,
+      "type": "Quote",
+      "description": "Home insurance quote sent",
+      "clientName": "Michael Brown",
+      "timestamp": "2024-01-15T08:45:00Z"
+    },
+    {
+      "Id": 4,
+      "type": "Payment",
+      "description": "Premium payment received",
+      "clientName": "Emily Davis",
+      "timestamp": "2024-01-14T16:20:00Z"
+    },
+    {
+      "Id": 5,
+      "type": "Call",
+      "description": "Follow-up call completed",
+      "clientName": "Robert Wilson",
+      "timestamp": "2024-01-14T14:10:00Z"
+    }
+  ],
+  "upcomingTasks": [
+    {
+      "Id": 1,
+      "title": "Follow up with John Smith",
+      "priority": "High",
+      "dueDate": "2024-01-16T00:00:00Z",
+      "relatedTo": "Client"
+    },
+    {
+      "Id": 2,
+      "title": "Send policy renewal notice",
+      "priority": "Medium",
+      "dueDate": "2024-01-17T00:00:00Z",
+      "relatedTo": "Policy"
+    },
+    {
+      "Id": 3,
+      "title": "Prepare quarterly report",
+      "priority": "Low",
+      "dueDate": "2024-01-20T00:00:00Z",
+      "relatedTo": "Report"
+    },
+    {
+      "Id": 4,
+      "title": "Client meeting - Sarah Johnson",
+      "priority": "High",
+      "dueDate": "2024-01-18T00:00:00Z",
+      "relatedTo": "Client"
+    }
+  ]
+}

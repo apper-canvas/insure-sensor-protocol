@@ -1,0 +1,148 @@
+{
+  "policies": [
+    {
+      "Id": 1,
+      "clientId": "1",
+      "policyNumber": "AUTO-2024-001",
+      "type": "Auto Insurance",
+      "provider": "SecureGuard Insurance",
+      "premium": 1250,
+      "coverage": 500000,
+      "startDate": "2024-01-01T00:00:00Z",
+      "renewalDate": "2024-12-31T00:00:00Z",
+      "status": "Active"
+    },
+    {
+      "Id": 2,
+      "clientId": "1",
+      "policyNumber": "HOME-2024-002",
+      "type": "Home Insurance",
+      "provider": "SafeHaven Insurance",
+      "premium": 2100,
+      "coverage": 750000,
+      "startDate": "2024-01-15T00:00:00Z",
+      "renewalDate": "2024-01-14T00:00:00Z",
+      "status": "Active"
+    },
+    {
+      "Id": 3,
+      "clientId": "2",
+      "policyNumber": "AUTO-2023-156",
+      "type": "Auto Insurance",
+      "provider": "DriveProtect Insurance",
+      "premium": 980,
+      "coverage": 300000,
+      "startDate": "2023-08-15T00:00:00Z",
+      "renewalDate": "2024-08-14T00:00:00Z",
+      "status": "Active"
+    },
+    {
+      "Id": 4,
+      "clientId": "3",
+      "policyNumber": "COMM-2024-008",
+      "type": "Commercial Insurance",
+      "provider": "BusinessFirst Insurance",
+      "premium": 4500,
+      "coverage": 2000000,
+      "startDate": "2024-01-01T00:00:00Z",
+      "renewalDate": "2024-12-31T00:00:00Z",
+      "status": "Active"
+    },
+    {
+      "Id": 5,
+      "clientId": "4",
+      "policyNumber": "AUTO-2023-189",
+      "type": "Auto Insurance",
+      "provider": "SecureGuard Insurance",
+      "premium": 850,
+      "coverage": 250000,
+      "startDate": "2023-09-10T00:00:00Z",
+      "renewalDate": "2024-09-09T00:00:00Z",
+      "status": "Active"
+    },
+    {
+      "Id": 6,
+      "clientId": "5",
+      "policyNumber": "LIFE-2022-045",
+      "type": "Life Insurance",
+      "provider": "LifeGuard Insurance",
+      "premium": 3600,
+      "coverage": 1000000,
+      "startDate": "2022-03-05T00:00:00Z",
+      "renewalDate": "2024-03-04T00:00:00Z",
+      "status": "Active"
+    },
+    {
+      "Id": 7,
+      "clientId": "6",
+      "policyNumber": "HEALTH-2023-167",
+      "type": "Health Insurance",
+      "provider": "WellCare Insurance",
+      "premium": 2850,
+      "coverage": 50000,
+      "startDate": "2023-07-28T00:00:00Z",
+      "renewalDate": "2024-07-27T00:00:00Z",
+      "status": "Active"
+    },
+    {
+      "Id": 8,
+      "clientId": "7",
+      "policyNumber": "WORK-2023-134",
+      "type": "Workers Comp",
+      "provider": "WorkSafe Insurance",
+      "premium": 5200,
+      "coverage": 1500000,
+      "startDate": "2023-05-12T00:00:00Z",
+      "renewalDate": "2024-05-11T00:00:00Z",
+      "status": "Active"
+    },
+    {
+      "Id": 9,
+      "clientId": "8",
+      "policyNumber": "HOME-2023-198",
+      "type": "Home Office Insurance",
+      "provider": "HomeGuard Insurance",
+      "premium": 780,
+      "coverage": 100000,
+      "startDate": "2023-10-05T00:00:00Z",
+      "renewalDate": "2024-10-04T00:00:00Z",
+      "status": "Active"
+    },
+    {
+      "Id": 10,
+      "clientId": "9",
+      "policyNumber": "TRAV-2023-212",
+      "type": "Travel Insurance",
+      "provider": "TravelSafe Insurance",
+      "premium": 450,
+      "coverage": 50000,
+      "startDate": "2023-06-18T00:00:00Z",
+      "renewalDate": "2024-06-17T00:00:00Z",
+      "status": "Active"
+    },
+    {
+      "Id": 11,
+      "clientId": "2",
+      "policyNumber": "HOME-2024-025",
+      "type": "Home Insurance",
+      "provider": "SafeHaven Insurance",
+      "premium": 1650,
+      "coverage": 450000,
+      "startDate": "2024-01-10T00:00:00Z",
+      "renewalDate": "2025-01-09T00:00:00Z",
+      "status": "Active"
+    },
+    {
+      "Id": 12,
+      "clientId": "10",
+      "policyNumber": "AUTO-2023-278",
+      "type": "Auto Insurance",
+      "provider": "DriveProtect Insurance",
+      "premium": 720,
+      "coverage": 200000,
+      "startDate": "2023-11-22T00:00:00Z",
+      "renewalDate": "2024-11-21T00:00:00Z",
+      "status": "Active"
+    }
+  ]
+}

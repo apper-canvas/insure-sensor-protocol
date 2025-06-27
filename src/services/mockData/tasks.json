@@ -1,0 +1,124 @@
+{
+  "tasks": [
+    {
+      "Id": 1,
+      "title": "Follow up with John Smith",
+      "description": "Discuss policy renewal options and pricing",
+      "dueDate": "2024-01-16T00:00:00Z",
+      "priority": "High",
+      "relatedTo": "Client",
+      "relatedId": "1",
+      "completed": false
+    },
+    {
+      "Id": 2,
+      "title": "Send policy renewal notice",
+      "description": "Email renewal documents to Sarah Johnson",
+      "dueDate": "2024-01-17T00:00:00Z",
+      "priority": "Medium",
+      "relatedTo": "Policy",
+      "relatedId": "3",
+      "completed": false
+    },
+    {
+      "Id": 3,
+      "title": "Prepare quarterly report",
+      "description": "Compile sales and client data for Q4 report",
+      "dueDate": "2024-01-20T00:00:00Z",
+      "priority": "Low",
+      "relatedTo": "Report",
+      "relatedId": "",
+      "completed": false
+    },
+    {
+      "Id": 4,
+      "title": "Client meeting - Sarah Johnson",
+      "description": "Discuss new home insurance coverage options",
+      "dueDate": "2024-01-18T00:00:00Z",
+      "priority": "High",
+      "relatedTo": "Client",
+      "relatedId": "2",
+      "completed": false
+    },
+    {
+      "Id": 5,
+      "title": "Process claim documentation",
+      "description": "Review and process auto claim for Michael Brown",
+      "dueDate": "2024-01-15T00:00:00Z",
+      "priority": "High",
+      "relatedTo": "Claim",
+      "relatedId": "3",
+      "completed": true
+    },
+    {
+      "Id": 6,
+      "title": "Update CRM records",
+      "description": "Add new contact information for recent clients",
+      "dueDate": "2024-01-19T00:00:00Z",
+      "priority": "Medium",
+      "relatedTo": "System",
+      "relatedId": "",
+      "completed": false
+    },
+    {
+      "Id": 7,
+      "title": "Call Emily Davis",
+      "description": "Schedule policy review meeting",
+      "dueDate": "2024-01-21T00:00:00Z",
+      "priority": "Medium",
+      "relatedTo": "Client",
+      "relatedId": "4",
+      "completed": false
+    },
+    {
+      "Id": 8,
+      "title": "Review commercial policy",
+      "description": "Annual review of business insurance coverage",
+      "dueDate": "2024-01-25T00:00:00Z",
+      "priority": "Low",
+      "relatedTo": "Policy",
+      "relatedId": "4",
+      "completed": false
+    },
+    {
+      "Id": 9,
+      "title": "Send welcome packet",
+      "description": "Mail new client welcome materials to Jennifer Taylor",
+      "dueDate": "2024-01-14T00:00:00Z",
+      "priority": "Medium",
+      "relatedTo": "Client",
+      "relatedId": "8",
+      "completed": true
+    },
+    {
+      "Id": 10,
+      "title": "Schedule risk assessment",
+      "description": "Arrange property inspection for new home policy",
+      "dueDate": "2024-01-22T00:00:00Z",
+      "priority": "High",
+      "relatedTo": "Policy",
+      "relatedId": "11",
+      "completed": false
+    },
+    {
+      "Id": 11,
+      "title": "Training session attendance",
+      "description": "Attend product training for new life insurance offerings",
+      "dueDate": "2024-01-30T00:00:00Z",
+      "priority": "Low",
+      "relatedTo": "Training",
+      "relatedId": "",
+      "completed": false
+    },
+    {
+      "Id": 12,
+      "title": "Quote comparison analysis",
+      "description": "Compare rates for Alex Thompson's auto insurance",
+      "dueDate": "2024-01-12T00:00:00Z",
+      "priority": "High",
+      "relatedTo": "Lead",
+      "relatedId": "1",
+      "completed": true
+    }
+  ]
+}

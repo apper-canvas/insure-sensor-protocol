@@ -1,0 +1,136 @@
+{
+  "leads": [
+    {
+      "Id": 1,
+      "name": "Alex Thompson",
+      "email": "alex.thompson@email.com",
+      "phone": "(555) 111-2222",
+      "source": "Website",
+      "stage": "prospect",
+      "value": 15000,
+      "assignedTo": "Agent Smith",
+      "nextAction": "2024-01-17T00:00:00Z"
+    },
+    {
+      "Id": 2,
+      "name": "Maria Rodriguez",
+      "email": "maria.r@email.com",
+      "phone": "(555) 222-3333",
+      "source": "Referral",
+      "stage": "quoted",
+      "value": 8500,
+      "assignedTo": "Agent Johnson",
+      "nextAction": "2024-01-18T00:00:00Z"
+    },
+    {
+      "Id": 3,
+      "name": "William Chen",
+      "email": "w.chen@email.com",
+      "phone": "(555) 333-4444",
+      "source": "Cold Call",
+      "stage": "negotiating",
+      "value": 22000,
+      "assignedTo": "Agent Smith",
+      "nextAction": "2024-01-19T00:00:00Z"
+    },
+    {
+      "Id": 4,
+      "name": "Amanda Foster",
+      "email": "amanda.f@email.com",
+      "phone": "(555) 444-5555",
+      "source": "Social Media",
+      "stage": "prospect",
+      "value": 5500,
+      "assignedTo": "Agent Brown",
+      "nextAction": "2024-01-20T00:00:00Z"
+    },
+    {
+      "Id": 5,
+      "name": "Kevin Parker",
+      "email": "kevin.p@email.com",
+      "phone": "(555) 555-6666",
+      "source": "Website",
+      "stage": "closed",
+      "value": 18500,
+      "assignedTo": "Agent Johnson",
+      "nextAction": null
+    },
+    {
+      "Id": 6,
+      "name": "Jessica Wong",
+      "email": "jessica.w@email.com",
+      "phone": "(555) 666-7777",
+      "source": "Referral",
+      "stage": "quoted",
+      "value": 12000,
+      "assignedTo": "Agent Smith",
+      "nextAction": "2024-01-21T00:00:00Z"
+    },
+    {
+      "Id": 7,
+      "name": "Thomas Mitchell",
+      "email": "thomas.m@email.com",
+      "phone": "(555) 777-8888",
+      "source": "Trade Show",
+      "stage": "negotiating",
+      "value": 35000,
+      "assignedTo": "Agent Brown",
+      "nextAction": "2024-01-22T00:00:00Z"
+    },
+    {
+      "Id": 8,
+      "name": "Rachel Green",
+      "email": "rachel.g@email.com",
+      "phone": "(555) 888-9999",
+      "source": "Website",
+      "stage": "prospect",
+      "value": 7200,
+      "assignedTo": "Agent Johnson",
+      "nextAction": "2024-01-23T00:00:00Z"
+    },
+    {
+      "Id": 9,
+      "name": "Daniel Adams",
+      "email": "daniel.a@email.com",
+      "phone": "(555) 999-0000",
+      "source": "Cold Call",
+      "stage": "closed",
+      "value": 28000,
+      "assignedTo": "Agent Smith",
+      "nextAction": null
+    },
+    {
+      "Id": 10,
+      "name": "Sophie Turner",
+      "email": "sophie.t@email.com",
+      "phone": "(555) 000-1111",
+      "source": "Referral",
+      "stage": "quoted",
+      "value": 9800,
+      "assignedTo": "Agent Brown",
+      "nextAction": "2024-01-24T00:00:00Z"
+    },
+    {
+      "Id": 11,
+      "name": "Marcus Johnson",
+      "email": "marcus.j@email.com",
+      "phone": "(555) 111-0000",
+      "source": "Social Media",
+      "stage": "prospect",
+      "value": 13500,
+      "assignedTo": "Agent Johnson",
+      "nextAction": "2024-01-25T00:00:00Z"
+    },
+    {
+      "Id": 12,
+      "name": "Olivia Davis",
+      "email": "olivia.d@email.com",
+      "phone": "(555) 222-1111",
+      "source": "Website",
+      "stage": "negotiating",
+      "value": 16800,
+      "assignedTo": "Agent Smith",
+      "nextAction": "2024-01-26T00:00:00Z"
+    }
+  ]
+}
