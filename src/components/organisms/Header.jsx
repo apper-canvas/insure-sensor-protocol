@@ -84,8 +84,7 @@ const Header = ({ onMenuClick }) => {
               </motion.div>
             )}
           </div>
-
-          {/* Quick Actions */}
+{/* Quick Actions */}
           <motion.button
             className="btn-primary text-sm"
             whileHover={{ scale: 1.05 }}
@@ -93,6 +92,25 @@ const Header = ({ onMenuClick }) => {
           >
             <ApperIcon name="Plus" className="w-4 h-4 mr-2" />
             <span className="hidden sm:inline">Quick Add</span>
+          </motion.button>
+          
+          {/* Logout Button */}
+          <motion.button
+            onClick={async () => {
+              try {
+                const { ApperUI } = window.ApperSDK;
+                await ApperUI.logout();
+                window.location.href = '/login';
+              } catch (error) {
+                console.error("Logout failed:", error);
+              }
+            }}
+            className="btn-secondary text-sm"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <ApperIcon name="LogOut" className="w-4 h-4 mr-2" />
+            <span className="hidden sm:inline">Logout</span>
           </motion.button>
         </div>
       </div>
